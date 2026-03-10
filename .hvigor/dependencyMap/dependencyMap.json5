@@ -1,1 +1,1 @@
-{"basePath":"/Users/suzhe/Desktop/code/project/harmony/studyDemo/practiceDemo/.hvigor/dependencyMap/dependencyMap.json5","rootDependency":"./oh-package.json5","dependencyMap":{"entry":"./entry/oh-package.json5"},"modules":[{"name":"entry","srcPath":"../../../entry"}]}
+{"basePath":"/Users/suzhe/Desktop/code/project/harmony/studyDemo/harmonyReviewCode/.hvigor/dependencyMap/dependencyMap.json5","rootDependency":"./oh-package.json5","dependencyMap":{"entry":"./entry/oh-package.json5"},"modules":[{"name":"entry","srcPath":"../../../entry"}]}
