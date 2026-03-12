@@ -39,6 +39,9 @@ struct Demo05RefreshList {
                 Text(item.toString())
                 Text(item.toString())
                 Text(item.toString())
+                Text(item.toString())
+                Text(item.toString())
+                Text(item.toString())
               }
               .width('100%')
               .padding(20)
