@@ -7,8 +7,7 @@
       }
     ],
     "NATIVE_COMPILER": "Default",
-    "BUILD_MODE": "debug",
-    "USE_NORMALIZED_OHMURL": true
+    "BUILD_MODE": "debug"
   },
   "HVIGOR": {
     "IS_INCREMENTAL": true,
@@ -17,18 +16,18 @@
     "IS_HVIGORFILE_TYPE_CHECK": false,
     "TASK_TIME": {
       "1043bfc77febe75fafec0c4309faccf1": {
-        "CreateModuleInfo": 180834,
-        "PreCheckSyscap": 91708,
-        "ProcessStartupConfig": 850875,
-        "PreviewProcessResource": 318750,
-        "PreviewCompileResource": 110133375,
-        "PreviewHookCompileResource": 165708,
-        "CopyPreviewProfile": 1673042,
-        "ReplacePreviewerPage": 846625,
-        "buildPreviewerResource": 88834,
-        "PreviewUpdateAssets": 628833,
-        "PreviewArkTS": 4254359667,
-        "PreviewBuild": 120583
+        "CreateModuleInfo": 164208,
+        "PreCheckSyscap": 93292,
+        "ProcessStartupConfig": 577083,
+        "PreviewProcessResource": 248792,
+        "PreviewCompileResource": 100765500,
+        "PreviewHookCompileResource": 115125,
+        "CopyPreviewProfile": 1142916,
+        "ReplacePreviewerPage": 737625,
+        "buildPreviewerResource": 84750,
+        "PreviewUpdateAssets": 676667,
+        "PreviewArkTS": 4209816500,
+        "PreviewBuild": 108083
       }
     },
     "APIS": [
@@ -53,7 +52,7 @@
       "getStartParams"
     ],
     "CONFIG_PROPERTIES": {},
-    "TOTAL_TIME": 4470768083,
-    "BUILD_ID": "202603102244570510"
+    "TOTAL_TIME": 4412562959,
+    "BUILD_ID": "202603121856225860"
   }
 }

@@ -1,21 +1,21 @@
 import { curves } from '@kit.ArkUI'
 
 // 全局变量
-let num: number = 100
+// let num: number = 100
 
 @Entry
 @Component
 struct Demo05ScrollH {
   // 组件内的变量, 访问需要加 this
-  myNum: number = 100
+  // myNum: number = 100
 
   // 1. 创建一个控制器对象
   scroller: Scroller = new Scroller()
 
   build() {
     Column() {
-      Text(num.toString()) // 用的就是全局的变量
-      Text(this.myNum.toString()) // 用的就是组件的内部变量
+      // Text(num.toString()) // 用的就是全局的变量
+      // Text(this.myNum.toString()) // 用的就是组件的内部变量
       // 2. 控制器 和 滚动组件 建立关联
       Scroll(this.scroller) {
         Row({ space: 15 }) {
