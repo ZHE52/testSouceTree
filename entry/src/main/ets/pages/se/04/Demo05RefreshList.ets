@@ -14,13 +14,6 @@ struct Demo05RefreshList {
       .textAlign(TextAlign.Center)
   }
 
-  //为什么git没有提交记录呢？？？
-  //在测试一次
-  //已经修改了邮箱，在测试一次
-  //现在好像推不上去了
-
-  //测试
-
   build() {
     Column() {
       Refresh({
@@ -31,14 +24,6 @@ struct Demo05RefreshList {
           ForEach(this.list, (item: number) => {
             ListItem() {
               Row() {
-                Text(item.toString())
-                Text(item.toString())
-                Text(item.toString())
-                Text(item.toString())
-                Text(item.toString())
-                Text(item.toString())
-                Text(item.toString())
-                Text(item.toString())
                 Text(item.toString())
                 Text(item.toString())
                 Text(item.toString())
@@ -58,13 +43,15 @@ struct Demo05RefreshList {
       }
       // 监听下拉刷新
       .onRefreshing(() => {
-        // 下拉刷新, 立刻获取最新的数据
+        // 下拉刷新，立刻获取最新的数据
+        console.log('开始刷新...')
         setTimeout(() => {
-          // 获取完最新的数据(模拟获取20条新的数据)
+          // 获取完最新的数据 (模拟获取 20 条新的数据)
           this.list = Array(20).fill(Date.now())
+          console.log('刷新完成，新时间戳:', this.list[0])
           // 更新下拉状态
           this.refreshing = false
-        }, 1000)
+        }, 3000) // 改为 3 秒，让你明显感觉到等待
       })
     }
     .width('100%')
